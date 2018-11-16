@@ -55,6 +55,10 @@ h2 {
   text-decoration: underline;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .fas,
 .far,
 .fab {
@@ -66,7 +70,8 @@ h2 {
 .fas:hover,
 .far:hover,
 .fab:hover {
-  color: white;
+  color: #fff;
+  transition: .7s;
 }
 
 .fa-home {
@@ -127,7 +132,7 @@ h2 {
 }
 
 .turing-logo {
-  height: 160px;
+  height: 170px;
   margin: auto;
   margin-top: 20px;
   padding: 10px;
@@ -147,7 +152,7 @@ h2 {
 .search-header {
   align-items: center;
   display: flex;
-  padding: 15px;
+  padding: 25px;
   height: 100px;
   width: 100%;
   grid-area: header;
