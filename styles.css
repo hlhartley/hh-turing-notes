@@ -7,8 +7,27 @@
   padding: 0px;
 }
 
-a {
-  color: #4c4d4f;
+.icon-links {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.icon-links:hover {
+  border: none;
+}
+
+.regular-links {
+  color: #ef3852;
+  text-decoration: none;
+}
+
+.regular-links:visited {
+  color: #ef3852;
+}
+
+.regular-links:hover {
+  border: none;
+  color: #05C2D1;
   text-decoration: none;
 }
 
@@ -21,13 +40,31 @@ a:hover {
   border-right: 6px solid #05C2D1;
 }
 
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .fas,
 .far,
 .fab {
-  color: white;
   font-size: 37px;
   margin: auto;
   text-align: center;
+}
+
+.fas:hover,
+.far:hover,
+.fab:hover {
+  color: white;
 }
 
 .fa-home {
@@ -56,6 +93,7 @@ a:hover {
   display: grid;
   grid-area: nav;
   background-color: #f9ae06;
+  height: 760px;
 }
 
 .img-header {
@@ -68,7 +106,7 @@ a:hover {
 .body {
   grid-area: body;
   background-color: #f7f5ee;
-  height: 360px;
+  height: auto;
 }
 
 .body-text {
@@ -100,6 +138,7 @@ a:hover {
   margin-bottom: 20px;
   padding: 20px;
   text-align: center;
+  text-decoration: none;
 }
 
 .search-header {
@@ -116,6 +155,7 @@ a:hover {
   border: 2px solid #e7e4d7;
   border-bottom-left-radius: 6px;
   border-top-left-radius: 6px;
+  color: #4c4d4f;
   font-size: 1.5em;
   height: 50px;
   outline: none;

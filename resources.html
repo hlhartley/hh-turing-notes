@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Heather's Turing Notes: Resources</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <meta name=“viewport” content=“width=device-width, initial-scale=1”>
+</head>
+<body class="container">
+    <section class="nav-bar">
+      <img src="images/TuringSchool_LogoMark_Gray.png" alt="Turing Logo" class="turing-logo">
+      <a href="mod1.html" class="mod-links">Mod 1</a>
+      <a href="mod2.html" class="mod-links">Mod 2</a>
+      <a href="resources.html" class="mod-links">Resources</a>
+      <a href="https://www.turing.io/" class="mod-links">Turing</a>
+    </section>
+    <section class="search-header">
+      <input type="text" class="search-bar-input" placeholder="Search">
+      <button class="search-bar-btn"><i class="fas fa-search"></i></button>
+        <a href="index.html" class="icon-links"><i class="fas fa-home"></i></a>
+       <i class="far fa-envelope"></i>
+       <a href="https://www.facebook.com/turingschool/" class="icon-links"><i class="fab fa-facebook-square"></i></a>
+    </section>
+    <section class="img-header">
+      <p class="header-text">
+        Resources
+      </p>
+    </section>
+    <section class="body">
+     <div class="body-text">
+        <p class="responsive-layout">
+          <h2>CSS: Responsive Layouts / Media Queries</h2>
+          <p class="italic">A responsive layout flows smoothly from 1449px down to *320px
+          </p>
+          <p>
+            <br>- Min-width: kicks in <u>above</u> 900px
+            <br>- Max-width: kicks in <u>below</u> 900px
+          </p>
+          <br>
+          <p class="underline">CSS Code:</p>
+           @media screen and (min-width: 900px) {
+            <br>body {
+            <br>background: magenta;
+              <br>}
+            <br>}
+        </p>
+      </div>
+    <div class="body-text">
+        <p class="design-links">
+          <h2>DESIGN: Dieter Rams: 10 Design Principles</h2>
+          <p class="italic"> - Understanding what the user REALLY needs/wants
+          <br>- User testing
+          </p>
+          <p>
+           <br>1. Innovative
+           <br>2. Makes a product useful
+           <br>3. Aesthetic
+           <br>4. Makes a product understandable
+           <br>5. Unobtrusive
+           <br>6. Honest
+           <br>7. Long-lasting
+           <br>8. Thorough down to the last detail
+           <br>9. Environmentally-friendly
+           <br>10. As little design as possible
+        </p>
+        <br>
+          <p class="underline">Link - Dribbble:</p>
+          <p><a href="https://dribbble.com/" class="regular-links">https://dribbble.com/</a></p> 
+          <br>
+          <p class="underline">Link - Behance:</p>
+          <p><a href="https://www.behance.net/" class="regular-links">https://www.behance.net/</a></p>
+      </div>
+      <div class="body-text">
+        <p class="normalize-css">
+          <h2>HTML/CSS: Import Customized Font</h2>
+          <p class="italic">Changes font to a customized font style of your choosing
+          <br>- note: linking the font to your HTML page takes less loading time than linking  to your CSS page using @import rule</p>
+          <br>
+          <p>
+            1. Find a font on Google Fonts website
+            <br>
+            2. Optional: select and customize font (font-weight styles)
+            <br> 
+            3. Copy and paste HTML code in the &lt;head> section of your HTML document
+            <br>
+            4. Add "font-family" property in CSS file and change 'Merriweather' to the name of your new font
+          </p>
+          <br>
+          <p class="underline">Link - Google Fonts:</p>
+          <p><a href="https://fonts.google.com/" class="regular-links">https://fonts.google.com/</a></p> 
+          <br>
+          <p class="underline">CSS Code:</p>
+          <p>
+          * {
+            font-family: 'Merriweather', serif;
+          }
+        </p>
+      </div>
+       <div class="body-text">
+        <p class="normalize-css">
+          <h2>CSS: normalize.css</h2>
+          <p class="italic">Defines specific default CSS values that will be displayed standardized across all browsers</p>
+          <br>
+          <p>
+            1. Copy and paste the normalize.css code from the link below in a new, separate file from your CSS (in your root directory)
+            <br>
+            2. Link the normalize.css file in your HTML in the &lt;head> section of your HTML document <u>before</u> the link to your regular css file
+          </p>
+          <br>
+          <p class="underline">Link - normalize.css File Code:</p>
+          <p><a href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" class="regular-links">https://necolas.github.io/normalize.css/8.0.1/normalize.css</a></p>
+          <br>
+          <p class="underline">HTML Code:</p>
+          <p>
+          &lt;link rel="stylesheet" href="normalize.css">
+        </p>
+      </div>
+      <div class="body-text">
+        <p class="general-css-styles">
+          <h2>CSS: Defining General CSS Styles (*) / Box-sizing: border-box</h2>
+          <p class="italic">* defines default CSS values that will apply to the entire page.
+          <br>Box-sizing: border-box property allows us to incude the padding and border in an element's total width and height
+          </p>
+          <br>
+          <p>
+            1. Paste CSS code at top of CSS file
+          </p>
+          <br>
+          <p class="underline">CSS Code:</p>
+          <p>
+          * {
+          box-sizing: border-box;
+          }
+        </p>
+      </div>
+       <div class="body-text">
+        <p class="meta-tag">
+          <h2>HTML: Meta Tag</h2>
+          <p class="italic">Makes your site viewer friendly for mobile devices</p>
+          <br>
+          <p>1. Insert HTML in the &lt;head> section of your HTML document</p>
+          <br>
+          <p class="underline">HTML Code:</p>
+          <p>
+          &lt;meta name=“viewport” content=“width=device-width, initial-scale=1”>
+        </p>
+      </div>
+      <div class="body-text">
+        <p class="font-awesome-icons">
+          <h2>HTML/CSS: Customizable Icons</h2>
+          <p class="italic">Insert customizable icons on your website
+          <br> - great for links or as logos</p>
+          <br>
+          <p>1. Find icon at Font Awesome website</p>
+          <p>2. Copy &lt;i class=" ">&lt;/> of specific icon from Font Awesome website</p>
+          <p>3. Paste &lt;i class=" ">&lt;/> of specific icon anywhere in your HTML file</p>
+          <p>4. Style the color and size of the icon in your CSS styles (icons act as "text/font")
+          <p>5. Insert HTML code below in the &lt;head> section of your HTML document</p>
+          <br>
+          <p class="underline">Link - Font Awesome:</p>
+          <p><a href="https://fontawesome.com/icons?d=gallery" class="regular-links">https://fontawesome.com/icons?d=gallery</a></p>
+          <br>
+          <p class="underline">HTML Code:</p>
+          <p>
+          &lt;link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        </p>
+        <br>
+        <p class="underline">CSS Code Example:</p>
+        <p>
+        .fas,
+        <br>.far,
+        <br>.fab {
+          <br>font-size: 15px;
+          <br>color: blue;
+        <br>}
+      </div>
+    </section>
+<script src="main.js"></script>
+</body>
+</html>

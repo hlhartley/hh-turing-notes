@@ -1,1 +1,75 @@
-<p>HELLO</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Heather's Turing Notes: Mod1</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <meta name=“viewport” content=“width=device-width, initial-scale=1”>
+</head>
+<body class="container">
+    <section class="nav-bar">
+      <img src="images/TuringSchool_LogoMark_Gray.png" alt="Turing Logo" class="turing-logo">
+      <a href="mod1.html" class="mod-links">Mod 1</a>
+      <a href="mod2.html" class="mod-links">Mod 2</a>
+      <a href="resources.html" class="mod-links">Resources</a>
+      <a href="https://www.turing.io/" class="mod-links">Turing</a>
+    </section>
+    <section class="search-header">
+      <input type="text" class="search-bar-input" placeholder="Search">
+      <button class="search-bar-btn"><i class="fas fa-search"></i></button>
+       <a href="index.html" class="icon-links"><i class="fas fa-home"></i></a>
+       <i class="far fa-envelope"></i>
+       <a href="https://www.facebook.com/turingschool/" class="icon-links"><i class="fab fa-facebook-square"></i></a>
+    </section>
+    <section class="img-header">
+      <p class="header-text">
+        Mod 1 Notes
+      </p>
+    </section>
+     <section class="body">
+      <div class="body-text">
+        <p class="flexbox">
+          <h2>CSS: Flexbox</h2>
+          <p class="italic">Manipulates spacing and position of contents (vertically and horizontally - 1 dimensional)
+            <br>- note: good for simpler layouts and isolated components</p>
+          <br>
+          <p class="underline">Tips:</p>
+            - Can put a flexbox inside a grid layout
+            <br>- Don't "flex" your body
+            <br>- Parent container should have "display: flex" property
+            <br>- Center content by using "justify-content: center" and "align-items: center" properties on parent container
+            <br>- Child element should have height and width
+          <br><br>
+          <p class="underline">Link - A Complete Guide to Flexbox:</p>
+          <p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" class="regular-links">https://css-tricks.com/snippets/css/a-guide-to-flexbox/</a></p> 
+          <br>
+          <p class="underline">Link - Flexbox Froggy (game):</p>
+          <p><a href="https://flexboxfroggy.com/" class="regular-links">https://flexboxfroggy.com/</a></p> 
+      </div>
+       <div class="body-text">
+      <h2>CSS: Grid</h2>
+          <p class="italic">Manipulates spacing and position of contents (2D)
+            <br>- note: good for larger page layouts</p>
+          <br>
+          <p class="underline">Tips:</p>
+            - Can put a flexbox inside a grid layout
+            <br>- <u>Can</u> "flex" your body
+            <br>- Columns must be specified
+            <br>- Rows <u>do not</u> need to be specified
+            <br>- Numbers can be positive or negative
+            <br>- Can use special unit (fr)
+            <br>- "grid-auto-flow: dense" property fills all empty spaces
+            <br>- Grid template areas <u>must</u> work with grid-area (must define "area names")
+          <br><br>
+          <p class="underline">Link - A Complete Guide to Grid:</p>
+          <p><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" class="regular-links">https://css-tricks.com/snippets/css/complete-guide-grid/</a></p> 
+          <br>
+          <p class="underline">Link - Netninja Youtube Videos:</p>
+          <p><a href="https://www.youtube.com/results?search_query=netninja+grid" class="regular-links">https://www.youtube.com/results?search_query=netninja+grid</a></p> 
+      </div>
+    </section>
+<script src="main.js"></script>
+</body>
+</html>
