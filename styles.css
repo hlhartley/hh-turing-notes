@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  border-right: 5px solid #05C2D1;
+}
+
+.body {
+   background-image: url("images/Computer-design.jpg");
+   background-size: cover;
+ }
+
+.fas,
+.far,
+.fab {
+  color: white;
+  font-size: 37px;
+  margin: auto;
+  text-align: center;
+}
+
+.fa-home {
+  color: #ef3852;
+}
+
+.fa-facebook-square {
+  color: #05C2D1;
+  padding-right: 15px;
+}
+
+.fa-envelope {
+  color: #f9ae06;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 10vh 90vh;
+  grid-template-areas: "nav header"
+                       "nav body"
+}
+
+.nav-bar {
+  display: grid;
+  grid-area: nav;
+  background-color: #f9ae06;
+  height: 100vh;
+}
+
+.header {
+  display: grid;
+  grid-area: header;
+  background-color: #4c4d4f;
+}
+
+.turing-logo {
+  height: 160px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.mod-links {
+  color: #4c4d4f;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px;
+  text-align: center;
+}
+
+.search-header {
+  align-items: center;
+  display: flex;
+  height: auto;
+  margin-left: 11px;
+  width: 100%;
+}
+
+.search-bar-input {
+  border: 2px solid #e7e4d7;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  font-size: 1.5em;
+  height: 50px;
+  outline: none;
+  padding: 10px;
+  width: 65%;
+}
+
+.search-bar-btn {
+  background-color: #C2C1C0;
+  border-color: #e7e4d7;
+  border-bottom-right-radius: 6px;
+  border-left-style: none;
+  border-top-right-radius: 6px;
+  height: 50px;
+  width: 50px;
+}
+
+.fa-search {
+  color: #FFFFFF;
+  font-size: 2em;
+  height: 37px;
+  padding-top: 3px;
+  width: 37px;
+}
+
+.body-text {
+  background-color: white;
+  opacity: .5;
+  height: 100vh;
+  text-align: center;
+  margin: auto;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 1100px) {
+  .search-bar-input {
+    width: 400px;
+}
+
+@media screen and (max-width: 800px) {
+  .search-bar-input {
+    width: 400px;
+  }
+  
+  .fa-home,
+  .fa-envelope,
+  .fa-facebook-square {
+    position: absolute;
+    right: 2000px;
+    color: transparent;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .search-bar-input {
+    width: 230px;
+  }
+}
