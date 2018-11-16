@@ -19,6 +19,7 @@
 .regular-links {
   color: #f9ae06;
   text-decoration: none;
+  outline: none;
 }
 
 .regular-links:visited {
@@ -144,6 +145,7 @@ h2 {
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 20px;
+  outline: none;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -210,6 +212,7 @@ h2 {
   display: flex;
   margin-top: 35px;
   justify-content: space-around;
+  outline: none;
 }
 
 .filter-button:hover {
@@ -231,6 +234,10 @@ h2 {
 
 .screenshot {
   width: 500px;
+}
+
+.display-none {
+  display: none;
 }
 
 /*Media Queries*/
